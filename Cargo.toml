@@ -19,8 +19,7 @@ pyo3 = {version = "0.13", default-features = false}
 
 [features]
 # In default setting, python version is automatically detected
-default = ["pyo3-default"]
-pyo3-default = ["pyo3/auto-initialize", "pyo3/macros"]
+default = []
 rayon = ["ndarray/rayon"]
 
 [workspace]
